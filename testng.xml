@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" paralell="true" thread-count="2" >
+
+<parameter name = "username" value = "batman" />
+<parameter name = "password" value = "batman" />
+
+  <test name="Test" preserve-order="true">
+    <classes>
+   
+       <class name="testNGdemo.ParameterDemo"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
